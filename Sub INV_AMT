@@ -1,0 +1,55 @@
+Sub INV_AMT()
+
+Dim Mid As String
+Dim Row As Double
+Dim couner As Double
+Range("A65536").End(xlUp).Select
+RowNumber = ActiveCell.Row
+counter = RowNumber
+Row = 2
+
+While Row <= counter
+Mid = Worksheets("Sheet1").Cells(Row, 3).Value
+Mid_left = Left(Mid, 1)
+Mid_right = Right(Mid, 1)
+carnumber = Mid_left + Mid_right
+
+Select Case carnumber
+Case "2T"
+ Worksheets("Sheet1").Cells(Row, 4) = 781043
+Case "1A"
+ Worksheets("Sheet1").Cells(Row, 4) = 808184
+Case "3A"
+ Worksheets("Sheet1").Cells(Row, 4) = 872584
+Case "3R"
+ Worksheets("Sheet1").Cells(Row, 4) = 812968
+Case "4A"
+ Worksheets("Sheet1").Cells(Row, 4) = 964308
+Case "7A"
+ Worksheets("Sheet1").Cells(Row, 4) = 1056308
+Case "BA"
+ Worksheets("Sheet1").Cells(Row, 4) = 1083908
+Case "ST"
+ Worksheets("Sheet1").Cells(Row, 4) = 1245250
+Case "WT"
+ Worksheets("Sheet1").Cells(Row, 4) = 1308850
+Case "AR"
+ Worksheets("Sheet1").Cells(Row, 4) = 630900
+Case "BR"
+ Worksheets("Sheet1").Cells(Row, 4) = 713700
+Case "CR"
+ Worksheets("Sheet1").Cells(Row, 4) = 814900
+Case "DR"
+Worksheets("Sheet1").Cells(Row, 4) = 845200
+Case "FR"
+ Worksheets("Sheet1").Cells(Row, 4) = 628968
+Case "GR"
+ Worksheets("Sheet1").Cells(Row, 4) = 730168
+ 
+ Case Else
+ Worksheets("Sheet1").Cells(Row, 4) = 0
+ End Select
+ Row = Row + 1
+ Wend
+
+End Sub

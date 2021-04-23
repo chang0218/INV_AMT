@@ -45,6 +45,40 @@ Case "FR"
  Worksheets("Sheet1").Cells(Row, 4) = 628968
 Case "GR"
  Worksheets("Sheet1").Cells(Row, 4) = 730168
+Case "HR"
+ Worksheets("Sheet1").Cells(Row, 4) = 812968
+Case "JR"
+ Worksheets("Sheet1").Cells(Row, 4) = 840568
+Case "JK"
+ Worksheets("Sheet1").Cells(Row, 4) = 727360
+Case "VK"
+ Worksheets("Sheet1").Cells(Row, 4) = 1102400
+Case "KK"
+ Worksheets("Sheet1").Cells(Row, 4) = 964400
+ Case "XK"
+ Worksheets("Sheet1").Cells(Row, 4) = 1363450
+ Case "ZK"
+ Worksheets("Sheet1").Cells(Row, 4) = 1398030
+ Case "DU"
+ Worksheets("Sheet1").Cells(Row, 4) = 1091360
+ Case "WU"
+ Worksheets("Sheet1").Cells(Row, 4) = 1209660
+ Case "AV"
+ Worksheets("Sheet1").Cells(Row, 4) = 1337060
+ Case "BV"
+ Worksheets("Sheet1").Cells(Row, 4) = 1364360
+ Case "CV"
+ Worksheets("Sheet1").Cells(Row, 4) = 1537260
+ Case "AJ"
+ Worksheets("Sheet1").Cells(Row, 4) = 972150
+ Case "SC"
+ Worksheets("Sheet1").Cells(Row, 4) = 1792060
+ Case "TC"
+ Worksheets("Sheet1").Cells(Row, 4) = 2219760
+ Case "BJ"
+ Worksheets("Sheet1").Cells(Row, 4) = 1090450
+ Case "ZJ"
+ Worksheets("Sheet1").Cells(Row, 4) = 953950
  
  Case Else
  Worksheets("Sheet1").Cells(Row, 4) = 0
